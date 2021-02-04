@@ -6,7 +6,6 @@ int main()
    scanf("%d\n",&N);
    for(i = 0; i < N; i++)
    {
-   scanf("%d", &input);
    if(i==0 || input > max)
         {
             max = input;
