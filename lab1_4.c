@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <Math.h>
-int main(){
-    int S,X1,X2;
-    scanf ("%d%d",&X1,&X2);
-    S=(X1+X2)/2;
-    if (S>-1000<X1 || S<1000<X1)
+int main()
+{
+    int s,x1,x2;
+    scanf ("%d%d",&x1,&s);
+    //S=(X1+X2)/2;//
+    if (s>-1000<x1||s<1000<x1)
     {
-       X2 = (S*2)-X1;
-    printf("%d",X2);
+       x2=(s*2)-x1;
     }
+    printf("%d",x2);
 }
